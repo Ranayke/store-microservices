@@ -1,11 +1,11 @@
 package br.com.alura.microservice.loja.controller.dto;
 
 public class EnderecoDTO {
-	
+
 	private String rua;
-	
+
 	private int numero;
-	
+
 	private String estado;
 
 	public String getRua() {
@@ -30,6 +30,11 @@ public class EnderecoDTO {
 
 	public void setEstado(String estado) {
 		this.estado = estado;
+	}
+
+	@Override
+	public String toString() {
+		return "EnderecoDTO [rua=" + rua + ", numero=" + numero + ", estado=" + estado + "]";
 	}
 
 }

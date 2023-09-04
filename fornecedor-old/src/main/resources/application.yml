@@ -1,9 +1,5 @@
 server:
-  port: 8080
-
-spring:
-  application:
-    name: 'loja'
+  port: 8081
 
 eureka:
   client:
