@@ -6,5 +6,5 @@ spring:
     config:
       server:
         git:
-          search-paths: fornecedor
+          search-paths: fornecedor, loja
           uri: https://github.com/Ranayke/store-microservices-repo
