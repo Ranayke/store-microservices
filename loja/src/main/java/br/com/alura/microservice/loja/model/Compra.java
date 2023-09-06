@@ -1,7 +1,12 @@
 package br.com.alura.microservice.loja.model;
 
-public class Compra {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+@Entity
+public class Compra {
+	
+	@Id
 	private Long pedidoId;
 	private Integer tempoDePreparo;
 	private String enderecoDestino;
